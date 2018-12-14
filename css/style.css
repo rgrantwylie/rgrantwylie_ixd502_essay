@@ -36,7 +36,7 @@ body{
     background-color: dodgerblue;
     justify-content: flex-end; 
     background-image: url(../img/headerbg.png);
-    background-size: 100%;
+    background-size: cover;
     background-position:top;
     background-repeat: no-repeat;
 }
@@ -146,7 +146,7 @@ p.sub{
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-size: 1.25em;
     margin-top: 2%;
-    margin-bottom: 5%;
+    margin-bottom: 7.5%;
     margin-left: 5%;
     margin-right: 5%;
     letter-spacing: 0.65px;
@@ -220,6 +220,17 @@ h2{
     margin-left: 35%;
     margin-right: 35%;
     text-align: center;
+    letter-spacing: 0.65px;
+    color: #f5f5f5;
+}
+
+h2.content{
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 2.25em;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: left;
     letter-spacing: 0.65px;
     color: #f5f5f5;
 }
